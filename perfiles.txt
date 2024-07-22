@@ -1,0 +1,17 @@
+******************************************************
+aclaraciones
+
+
+ADMINISTRADOR:
+
+usuario: juan@gmail.com
+pass: juan1234
+
+cliente:
+
+usuario: gus@gmail.com
+pass: gustavo21
+
+
+
+******************************************************

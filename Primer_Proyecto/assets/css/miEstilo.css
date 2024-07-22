@@ -1,0 +1,114 @@
+﻿/*
+    Autor: Meza Wakahayashi, Juan Ignacio
+    Curso: Talentos Digitales
+    Modulo: II
+    Trabajo Parctico: Tarea Integradora.
+
+    se comentaron los puntos en que pedia estilo para seguir los puntos posteriores para poder darles el estilo especificado 
+    
+*/
+
+/*     
+body
+ {
+    background-color:darkkhaki;
+    color:#A52A2A;
+    font-family:Century Gothic, sans-serif;
+    margin: 0;
+    padding: 0;
+     
+}
+    */
+/*
+.center-bold-italic 
+{
+    text-align: center; 
+    font-weight: bold;  
+    font-style: italic; 
+   color:#A52A2A;
+}
+*/
+
+/*
+.estilo-div
+{
+    text-align:left; 
+    font-weight: bold; 
+    font-size: medium;
+   color:#A52A2A;
+}
+*/    
+
+
+header {
+background-color: darkkhaki;
+color: #A52A2A;
+text-align: center;
+padding: 20px;
+}
+section {
+padding: 20px; /* espaciado para la sección de 20 pixeles */}
+footer {
+background-color: darkkhaki; /* Color de fondo del footer */
+color: #A52A2A;
+padding: 20px 0; }
+.footer-content {
+max-width: 800px; /* Ancho máximo del contenido del footer */
+margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+text-align: center; }
+
+
+/* Estilos para el nav y enlaces de ul y li */
+nav {
+background-color: #A52A2A;
+padding: 10px;
+}
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+nav ul li {
+display: inline-block;
+margin-right: 20px;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 5px;
+}
+nav ul li a:hover {
+background-color: darkkhaki ;
+}
+
+
+/* Estilos para las imágenes */
+img {
+display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+margin: 0 auto; /* Centrar las imágenes horizontalmente */
+max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+border: 3px solid #A52A2A; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+
+
+
+/*Agregue estilo al body*/
+body {
+    background-color:beige;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Agregue esta clase .text-uppercase que aplica la propiedad 
+text-transform: uppercase; para transformar el texto a mayúsculas.
+ esto para cambiar de minisculas a mayusculas*/
+
+ .text-uppercase {
+    text-transform: uppercase;
+}
+
